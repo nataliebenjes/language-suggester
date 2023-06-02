@@ -22,16 +22,18 @@ window.onload = function() {
       document.getElementById("teaInfo").removeAttribute("class")
     } else if (iphoneApps.checked == true) {
       document.getElementById("swiftInfo").removeAttribute("class");
+    } else if (compiled.checked == true && interpretive.checked == true) {
+      document.getElementById("rubyInfo").removeAttribute("class");
     } else if (compiled.checked == true) {
       document.getElementById("cSharpInfo").removeAttribute("class");
     } else if (interpretive.checked == true) {
       if (frontAndBackEnd.checked == true) {
         document.getElementById("javaScriptInfo").removeAttribute("class");
-      } else if (compiled.checked == false) {
+      } else {
         document.getElementById("pythonInfo").removeAttribute("class");
       }
-    } else {
-      document.getElementById("rubyInfo").removeAttribute("class");
+    // } else {
+    //   document.getElementById("rubyInfo").removeAttribute("class");
     }
   };
 };
