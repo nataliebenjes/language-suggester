@@ -6,19 +6,19 @@
   <title>Programming Language Suggestor</title>
 </head>
 <body>
-  <h1>The following form will help you choose between the following programming languages:</h1>
-  <ol>
+  <h1>This form will help you choose between the following programming languages:</h1>
+  <ul>
     <li>C#</li>
     <li>Swift</li>
     <li>JS</li>
     <li>Python</li>
     <li>Ruby</li>
-  </ol>
+  </ul>
   <div>
     <form>
       <label for="compiledInput">Do you like more rules and less error? Check here if so:</label><br>
       <input type="checkbox" id="compiledInput" name="compiledInput"><br>
-      <label for="interpretiveInput">Do you prefer less rules and moe flexibility? Check here if so:</label><br>
+      <label for="interpretiveInput">Do you prefer less rules and more flexibility? Check here if so:</label><br>
       <input type="checkbox" id="interpretiveInput" name="interpretiveInput"><br>
       <label for="coffeeOrTeaInput">Do you prefer coffee or tea? Trust me, this question is totally relevant:</label><br>
       <input type="text" id="coffeeOrTeaInput" name="coffeeOrTeaInput"><br>
@@ -26,6 +26,7 @@
       <input type="checkbox" id="iphoneAppInputs" name="iphoneAppsInput"><br>
       <label for="frontAndBackEndInput">Check if you want to program in the front and back end:</label><br> 
       <input type="checkbox" id="frontAndBackEndInput" name="frontAndBackEndInput"><br>
+      <button type="submit">Show me my programming language!</button>
     </form>
     <div id="cSharpInfo" class="hidden">
       <h1>You got C#!</h1>
