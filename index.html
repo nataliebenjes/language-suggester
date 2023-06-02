@@ -6,7 +6,6 @@
   <title>Programming Language Suggestor</title>
 </head>
 <body>
-  <h1>Fill out this form to find out which programming language is best for you to learn</h1>
   <h1>The following form will help you choose between the following programming languages:</h1>
   <ol>
     <li>C#</li>
@@ -18,12 +17,15 @@
   <div>
     <form>
       <label for="compiledInput">Do you like more rules and less error? Check here if so:</label><br>
-      <input type="checkboxInput" id="compiledInput" name="compiledInput">
+      <input type="checkbox" id="compiledInput" name="compiledInput"><br>
       <label for="interpretiveInput">Do you prefer less rules and moe flexibility? Check here if so:</label><br>
-      <input type="interpretiveInput" id="interpretiveInput" name="interpretiveInput">
+      <input type="checkbox" id="interpretiveInput" name="interpretiveInput"><br>
+      <label for="coffeeOrTeaInput">Do you prefer coffee or tea? Trust me, this question is totally relevant:</label><br>
+      <input type="text" id="coffeeOrTeaInput" name="coffeeOrTeaInput"><br>
       <label for="iphoneAppsInput">Check if you want to make iPhone apps:</label><br>
-      <input type="iphoneAppsInput" id="iphoneAppInputs" name="iphoneAppsInput">
+      <input type="checkbox" id="iphoneAppInputs" name="iphoneAppsInput"><br>
       <label for="frontAndBackEndInput">Check if you want to program in the front and back end:</label><br> 
+      <input type="checkbox" id="frontAndBackEndInput" name="frontAndBackEndInput"><br>
     </form>
     <div id="cSharpInfo" class="hidden">
       <h1>You got C#!</h1>
@@ -42,8 +44,8 @@
         <p>Python is a general purpose language. It is used in scientific applications, machine learning, and AI. In web based settings, Python is back end only, unlike JavaScript, which can be front and back end. However, similar to JavaScript, this language is interpretive; there are less rules, and coding small tasks is happens faster than when coding with compiled languages. </p>
     </div>
     <div id="rubyInfo" class="hidden">
-      <h1>You got Ruby</h1>
-        <p>Designed by Yukihiro Matsumoto to be fun and productive to use. Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves.Although Ruby is more often interpreted, it can be both interpreted and compiled depending on the implementation.</p>
+      <h1>You got Ruby!</h1>
+        <p>Designed by Yukihiro Matsumoto to be fun and productive to use. "Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves." Although Ruby is more often interpreted, it can be both interpreted and compiled depending on the implementation.</p>
     </div>
   </div>
 </body>
