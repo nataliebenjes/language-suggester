@@ -19,52 +19,55 @@
   <div>
     <div class="box">
       <form>
-        <label for="compiledInput">Do you like more rules and less error? Check here if so:</label><br>
+        <label for="compiledInput">1. Do you like more rules and less error? Check here if so:</label><br>
         <input type="checkbox" id="compiledInput" name="compiledInput"><br>
-        <label for="interpretiveInput">Do you prefer less rules and more flexibility? Check here if so:</label><br>
+        <label for="interpretiveInput">2. Do you prefer less rules and more flexibility? Check here if so:</label><br>
         <input type="checkbox" id="interpretiveInput" name="interpretiveInput"><br>
-        <label for="coffeeOrTeaInput">Do you prefer coffee or tea? Trust me, this question is totally relevant:</label><br>
+        <label for="coffeeOrTeaInput">3. Do you prefer coffee or tea? Trust me, this question is totally relevant:</label><br>
         <input type="text" id="coffeeOrTeaInput" name="coffeeOrTeaInput"><br>
-        <label for="iphoneAppsInput">Check if you want to make iPhone apps:</label><br>
+        <label for="iphoneAppsInput">4. Check if you want to make iPhone apps:</label><br>
         <input type="checkbox" id="iphoneAppsInput" name="iphoneAppsInput"><br>
-        <label for="frontAndBackEndInput">Check if you want to program in the front and back end:</label><br> 
+        <label for="frontAndBackEndInput">5. Check if you want to program in the front and back end:</label><br> 
         <input type="checkbox" id="frontAndBackEndInput" name="frontAndBackEndInput"><br>
         <button type="submit">Show me my programming language!</button>
        </form>
     </div>
-    <div class="box">
-      <div id="cSharpInfo" class="hidden">
+    <div id="cSharpInfo" class="hidden">
+      <div class="box">
         <h1>You got C#!</h1>
           <p>C# is a compiled language; it runs faster as a finished program than programs written in interpretive languages such as Python and JavaScript.</p>
       </div>
     </div> 
-    <div class="box">
-      <div id="swiftInfo" class="hidden">
+    <div id="swiftInfo" class="hidden">
+      <div class="box">
         <h1>You got Swift!</h1>
           <p>Swift is a compiled language from Apple that is used in iPhone apps.
           </p>
       </div>
     </div>
     <div id="javaScriptInfo" class="hidden">
-      <h1>You gotJavaScript!</h1>
-        <p>With JavaScript, you can create interactive features that run in a Browser. As an interpretive language, there are less rules, and coding small tasks is happens faster than when coding with compiled languages!</p>
+      <div class="box">
+        <h1>You gotJavaScript!</h1>
+          <p>With JavaScript, you can create interactive features that run in a Browser. As an interpretive language, there are less rules, and coding small tasks is happens faster than when coding with compiled languages!</p>
+      </div>
     </div>
-    <div class="box">
-      <div id="pythonInfo" class="hidden">
+    <div id="pythonInfo" class="hidden">
+      <div class="box">
         <h1>You got Python</h1>
           <p>Python is a general purpose language. It is used in scientific applications, machine learning, and AI. In web based settings, Python is back end only, unlike JavaScript, which can be front and back end. However, similar to JavaScript, this language is interpretive; there are less rules, and coding small tasks is happens faster than when coding with compiled languages. </p>
       </div>
     </div>
-    <div class="box">
-      <div id="rubyInfo" class="hidden">
+    <div id="rubyInfo" class="hidden">
+      <div class="box">
         <h1>You got Ruby!</h1>
           <p>Designed by Yukihiro Matsumoto to be fun and productive to use. "Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves." Although Ruby is more often interpreted, it can be both interpreted and compiled depending on the implementation.</p>
       </div>
     </div>
-    <div class="box">
-      <div id="teaInfo" class="hidden">
+    <div id="teaInfo" class="hidden">
+      <div class="box">
         <h1>Hold on there!</h1>
-          <p>Programmers have a universal preference to coffee over tea, so if you want to learn to code, you better start liking coffee. Sorry, this is a non-starter pal.</p>
+          <p>Programmers have a universal preference to coffee over tea, so if you want to learn to code, you better start liking coffee. Sorry, this is a non-starter pal. <br>
+          <strong>Please enter <em>"coffee"</em> as your answer for question 3 to see your results.</strong></p>
       </div>
     </div>
 </body>

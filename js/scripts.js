@@ -32,8 +32,8 @@ window.onload = function() {
       } else {
         document.getElementById("pythonInfo").removeAttribute("class");
       }
-    // } else {
-    //   document.getElementById("rubyInfo").removeAttribute("class");
+    } else {
+      document.getElementById("rubyInfo").removeAttribute("class");
     }
   };
 };
