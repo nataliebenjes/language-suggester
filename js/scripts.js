@@ -12,16 +12,26 @@ window.onload = function() {
   document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
-    let compiled = document.querySelector("input#compiledInput").value;
-    let interpretive = document.querySelector("input#interpretiveInput").value;
-    let coffeeOrTea = document.querySelector("input#coffeeOrTeaInput").value;te
-    let iphoneApps = document.querySelector("input#iphoneAppsInput").value;
-    let frontAndBackEnd = document.querySelector("input#frontAndBackEndInput").value;
+    let compiled = document.querySelector("input#compiledInput");
+    let interpretive = document.querySelector("input#interpretiveInput");
+    let coffeeOrTea = document.querySelector("input#coffeeOrTeaInput").value;
+    let iphoneApps = document.querySelector("input#iphoneAppsInput");
+    let frontAndBackEnd = document.querySelector("input#frontAndBackEndInput");
 
-    if (coffeeOrTea = "tea") {
+    if (coffeeOrTea != "coffee") {
       document.getElementById("teaInfo").removeAttribute("class")
+    } else if (iphoneApps.checked == true) {
+      document.getElementById("swiftInfo").removeAttribute("class");
     } else if (compiled.checked == true) {
       document.getElementById("cSharpInfo").removeAttribute("class");
+    } else if (interpretive.checked == true) {
+      if (frontAndBackEnd.checked == true) {
+        document.getElementById("javaScriptInfo").removeAttribute("class");
+      } else if (compiled.checked == false) {
+        document.getElementById("pythonInfo").removeAttribute("class");
+      }
+    } else {
+      document.getElementById("rubyInfo").removeAttribute("class");
     }
   };
 };
