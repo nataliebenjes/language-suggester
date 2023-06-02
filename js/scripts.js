@@ -4,16 +4,24 @@ function hideResults() {
   document.getElementById("javaScriptInfo").setAttribute("class", "hidden");
   document.getElementById("pythonInfo").setAttribute("class", "hidden");
   document.getElementById("rubyInfo").setAttribute("class", "hidden");
+  document.getElementById("teaInfo").setAttribute("class", "hidden");
 }
 
 window.onload = function() {
   hideResults();
-  let form = document.querySelector("form");
-  form.onsubmit = function(event) {
+  document.querySelector("form").onsubmit = function(event) {
     event.preventDefault();
     hideResults();
-    const compiled = document.querySelector("input#compiledInput").value;
-    const interpretive = document.querySelector("input#interpretiveInput").value;
-    const coffeeOrTea = document.querySelector("coffeeOrTeaInput").value;
-    const iphoneApps = document.querySelector("input#iphoneAppsInput").value;
-    const frontAndBackEnd = document.querySelector("input#frontAndBackEndInput").value;
+    let compiled = document.querySelector("input#compiledInput").value;
+    let interpretive = document.querySelector("input#interpretiveInput").value;
+    let coffeeOrTea = document.querySelector("input#coffeeOrTeaInput").value;te
+    let iphoneApps = document.querySelector("input#iphoneAppsInput").value;
+    let frontAndBackEnd = document.querySelector("input#frontAndBackEndInput").value;
+
+    if (coffeeOrTea = "tea") {
+      document.getElementById("teaInfo").removeAttribute("class")
+    } else if (compiled.checked == true) {
+      document.getElementById("cSharpInfo").removeAttribute("class");
+    }
+  };
+};
