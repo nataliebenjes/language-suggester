@@ -1,3 +1,37 @@
 .hidden {
   display: none;
 }
+
+body {
+  background-color: rgb(249, 240, 223);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 25px;
+}
+
+ul {
+  font-size: 40px;
+  column-count: 2;
+}
+
+.box {
+  border: 2px solid rgb(193, 240, 246);
+  border-width: 10px;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: rgb(249, 228, 188);
+  display: block;
+  margin: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+  box-sizing: border-box;
+  float: left;
+}
