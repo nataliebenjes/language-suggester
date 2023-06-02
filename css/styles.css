@@ -9,9 +9,21 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 25px;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(249, 240, 223);
+  border-radius: 5%;
+  border-color: rgb(193, 240, 246);
 }
 h2 {
   font-size: 60px;
+}
+
+form {
+  column-count: 3;
 }
 
 p {
@@ -39,5 +51,5 @@ ul {
 
 
 .image {
-  width: 25%;
+  width: 20px;
 }
