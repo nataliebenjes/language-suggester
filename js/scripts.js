@@ -14,11 +14,11 @@ window.onload = function() {
     hideResults();
     let compiled = document.querySelector("input#compiledInput");
     let interpretive = document.querySelector("input#interpretiveInput");
-    let coffeeOrTea = document.querySelector("input#coffeeOrTeaInput").value;
+    let coffeeOrTea = document.querySelector("select#coffeeOrTeaInput").value;
     let iphoneApps = document.querySelector("input#iphoneAppsInput");
     let frontAndBackEnd = document.querySelector("input#frontAndBackEndInput");
 
-    if (coffeeOrTea != "coffee") {
+    if (coffeeOrTea != "Coffee") {
       document.getElementById("teaInfo").removeAttribute("class")
     } else if (iphoneApps.checked == true) {
       document.getElementById("swiftInfo").removeAttribute("class");

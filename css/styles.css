@@ -19,8 +19,8 @@ p {
 }
 
 ul {
-  font-size: 40px;
-  column-count: 2;
+  font-size: 20px;
+  column-count: 5;
 }
 
 .box {
@@ -31,13 +31,10 @@ ul {
   background-color: rgb(249, 228, 188);
   display: block;
   margin: auto;
-  margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
-  width: 45%;
-  height: 45%;
+  width: 90%;
   box-sizing: border-box;
-  float: left;
 }
 
 
