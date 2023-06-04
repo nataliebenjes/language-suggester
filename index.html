@@ -20,18 +20,33 @@
   <div>
     <div class="box">
       <form>
-        <label for="compiledInput">1. Do you want to learn a compiled language? Check for yes: </label>
-        <input type="checkbox" id="compiledInput" name="compiledInput"><br><br>
-        <label for="interpretiveInput">2. Do you want to learn an interpretive language? Check for yes:</label>
-        <input type="checkbox" id="interpretiveInput" name="interpretiveInput"><br><br>
+        <label for="compiledInput">1. Do you want to learn a compiled language?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="compiledInput">
+          <label class="form-check-label" for="compiledInput">
+            Compiled
+          </label><br>
+        </div>
+        <label for="interpretiveInput">1. Do you want to learn an interpretive language?
+        </label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="interpretiveInput">
+          <label class="form-check-label" for="interpretiveInput">
+            Compiled
+        </div>
         <label for="coffeeOrTeaInput">3. Do you prefer coffee or tea? <br>
         Trust me, this question is totally relevant:</label><br>
         <select class="form-select form-select-sm" aria-label="Default select example" id="coffeeOrTeaInput" name="coffeeOrTeaInput">
           <option value="Coffee">Coffee</option>
           <option value="Tea">Tea</option>
         </select><br><br>
-        <label for="iphoneAppsInput">4. Check if you want to make iPhone apps:</label>
-        <input type="checkbox" id="iphoneAppsInput" name="iphoneAppsInput"><br><br>
+        <label for="interpretiveInput">3. Do you want to make iPhone Apps?
+        </label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="iphoneAppsInput">
+          <label class="form-check-label" for="iphoneAppsInput">
+            iPhone Apps are my jam!
+        </div>
         <label for="frontAndBackEndInput">5. Check if you want to program in the front and back end:</label><br><br>
         <input type="checkbox" id="frontAndBackEndInput" name="frontAndBackEndInput"><br>
         <button type="submit">Show me my programming language!</button>
