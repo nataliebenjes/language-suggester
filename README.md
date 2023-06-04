@@ -8,8 +8,10 @@
 
 * _HTML_
 * _CSS_
-*_JavaScript_
+* _JavaScript_
 
+## GitHub Pages
+[GitHub Page] (https://nataliebenjes.github.io/language-suggester/)
 
 ## Description
 
