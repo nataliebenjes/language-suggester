@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/scripts.js"></script>
   <title>Programming Language Suggestor</title>
 </head>
+
 <body>
   <div class="box">
     <h1 style="text-align: center;">This form will help you choose between the following programming languages:</h1><br>
@@ -25,76 +28,108 @@
           <input class="form-check-input" type="checkbox" value="" id="compiledInput">
           <label class="form-check-label" for="compiledInput">
             Compiled
-          </label><br>
+          </label><br><br>
         </div>
         <label for="interpretiveInput">1. Do you want to learn an interpretive language?
         </label>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="interpretiveInput">
           <label class="form-check-label" for="interpretiveInput">
-            Compiled
+            Interpretive
         </div>
         <label for="coffeeOrTeaInput">3. Do you prefer coffee or tea? <br>
-        Trust me, this question is totally relevant:</label><br>
-        <select class="form-select form-select-sm" aria-label="Default select example" id="coffeeOrTeaInput" name="coffeeOrTeaInput">
+          Trust me, this question is totally relevant:</label><br>
+        <select class="form-select form-select-sm" aria-label="Default select example" id="coffeeOrTeaInput"
+          name="coffeeOrTeaInput">
           <option value="Coffee">Coffee</option>
           <option value="Tea">Tea</option>
         </select><br><br>
-        <label for="interpretiveInput">3. Do you want to make iPhone Apps?
+        <label for="iphoneAppsInput">4. Do you want to make iPhone Apps?
         </label>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="iphoneAppsInput">
           <label class="form-check-label" for="iphoneAppsInput">
             iPhone Apps are my jam!
         </div>
-        <label for="frontAndBackEndInput">5. Check if you want to program in the front and back end:</label><br><br>
-        <input type="checkbox" id="frontAndBackEndInput" name="frontAndBackEndInput"><br>
+        <label for="frontAndBackEndInput">5. Check if you want to program in the front and back end:
+        </label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="frontAndBackEndInput"">
+            <label class="form-check-label" for="frontAndBackEndInput"">
+             Program in the front and back end
+          </div><br>
         <button type="submit">Show me my programming language!</button>
-       </form>
+      </form>
     </div>
     <div id="cSharpInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png" alt="C# logo"> You got C#!</h1>
-          <p>C# is a compiled language; it runs faster as a finished program than programs written in interpretive languages such as Python and JavaScript.</p>
+        <h1><img class="image" src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png"
+            alt="C# logo"> You got C#!</h1>
+        <p>C# is a compiled language; it runs faster as a finished program than programs written in interpretive
+          languages such as Python and JavaScript.</p>
       </div>
-    </div> 
+    </div>
     <div id="swiftInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift logo">  You got Swift!</h1>
-          <p>Swift is a compiled language from Apple that is used in iPhone apps.
-          </p>
+        <h1><img class="image" src="https://developer.apple.com/swift/images/swift-og.png" alt="Swift logo"> You got
+          Swift!</h1>
+        <p>Swift is a compiled language from Apple that is used in iPhone apps.
+        </p>
       </div>
     </div>
     <div id="javaScriptInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="JavaScript logo">  You gotJavaScript!</h1>
-          <p>With JavaScript, you can create interactive features that run in a Browser. As an interpretive language, there are less rules, and coding small tasks is happens faster than when coding with compiled languages!</p>
+        <h1><img class="image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+            alt="JavaScript logo"> You gotJavaScript!</h1>
+        <p>With JavaScript, you can create interactive features that run in a Browser. As an interpretive language,
+          there are less rules, and coding small tasks is happens faster than when coding with compiled languages!</p>
       </div>
     </div>
     <div id="pythonInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/" alt="python logo">  You got Python!</h1>
-          <p>Python is a general purpose language. It is used in scientific applications, machine learning, and AI. In web based settings, Python is back end only, unlike JavaScript, which can be front and back end. However, similar to JavaScript, this language is interpretive; there are less rules, and coding small tasks is happens faster than when coding with compiled languages.</p>
+        <h1><img class="image"
+            src="https://www.ntuclearninghub.com/documents/39367/4216797/Python-Symbol.png/369e410e-a90f-f887-c2dc-61f7ef761476/"
+            alt="python logo"> You got Python!</h1>
+        <p>Python is a general purpose language. It is used in scientific applications, machine learning, and AI. In web
+          based settings, Python is back end only, unlike JavaScript, which can be front and back end. However, similar
+          to JavaScript, this language is interpretive; there are less rules, and coding small tasks is happens faster
+          than when coding with compiled languages.</p>
 
       </div>
     </div>
     <div id="rubyInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png" alt="Ruby logo">  You got Ruby!</h1>
-          <p>Designed by Yukihiro Matsumoto to be fun and productive to use. "Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves." Although Ruby is more often interpreted, it can be both interpreted and compiled depending on the implementation.</p>
+        <h1><img class="image"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1200px-Ruby_logo.svg.png"
+            alt="Ruby logo"> You got Ruby!</h1>
+        <p>Designed by Yukihiro Matsumoto to be fun and productive to use:
+          <figure>
+            <blockquote class="blockquote text-center">
+              <p>"Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves."</p>
+              <figcaption class="blockquote-footer">
+                Yukihiro Matsumoto
+              </figcaption>
+          </figure>  
+          <p>Ruby is more often
+          interpreted, it can be both interpreted and compiled depending on the implementation.</p>
       </div>
     </div>
     <div id="teaInfo" class="hidden">
       <div class="box">
-        <h1><img class="image" src="https://www.vhv.rs/dpng/d/483-4830923_confused-emoji-transparent-background-confused-emoji-hd-png.png" alt="confuzed emoji">  Hold on there!</h1>
-          <p>Programmers have a universal preference to coffee over tea, so if you want to learn to code, you better start liking coffee. Sorry, this is a non-starter pal. <br><br>
-          <strong>Please enter <span style="background-color:rgb(178, 231, 213)">"coffee"</span> as your answer for question 3 to see your results.</strong></p>
+        <h1><img class="image"
+            src="https://www.vhv.rs/dpng/d/483-4830923_confused-emoji-transparent-background-confused-emoji-hd-png.png"
+            alt="confuzed emoji"> Hold on there!</h1>
+        <p>Programmers have a universal preference to coffee over tea, so if you want to learn to code, you better start
+          liking coffee. Sorry, this is a non-starter pal. <br><br>
+          <strong>Please enter <span style="background-color:rgb(178, 231, 213)">"coffee"</span> as your answer for
+            question 3 to see your results.</strong>
+        </p>
       </div>
     </div>
-    <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
-    crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+      </script>
 </body>
+
 </html>
