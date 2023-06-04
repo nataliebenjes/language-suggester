@@ -2,12 +2,13 @@
 
 #### By _**Natalie Benjes**_
 
-#### _A quiz to show the user what programming language they should learn_
+#### _A quiz to show the user what programming language the user should learn_
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
+*_JavaScript_
 
 
 ## Description
@@ -16,22 +17,16 @@ _This website takes inputs from the user from five questions listed in a form, t
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download the repository "language_suggestor" to your device._
+* _Open index.html_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+_If issues with the code are found please contact Natalie Benjes. GitHub username is nataliebenjes_
 
 ## License
 
-_If issues with the code are found please contact Natalie Benjes. GitHub username is nataliebenjes_
-
 [MIT License](https://opensource.org/licenses/MIT).
-Copyright (c) _6/2/2023_Natalie Benjes_
+Copyright (c) _2023_Natalie Benjes_
